@@ -14,8 +14,6 @@ A decode metódus olvasható szöveget készít a számokból a következő szab
 1. az első szám (ha van) az első betű ASCII kódjának a négyzetgyöke  
 2. minden további szám azt adja meg, hogy az adott betű ASCII kódja milyen messze van az előző betű Ascii kódjától
 
-A beépített sort(),min(), max(), average(), stb... metódusok használata a feladat megoldása során nem megengedett.
-
 **Kivételkezelés:**  
 ha a metódust úgy hívjuk meg, hogy a `code` paraméter egy üres tömb, akkor adjon vissza egy új, üres String-et  
 ha a metódust úgy hívjuk meg, hogy a `code` paraméter értéke null, akkor dobjon `IllegalArgumentException`-t
